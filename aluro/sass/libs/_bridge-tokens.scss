@@ -1,0 +1,884 @@
+// --------------------------------------------------------
+// Theme Configuration (Overrides)
+// --------------------------------------------------------
+// Altere os valores abaixo de `null` para a sua cor/tamanho desejado
+// para sobrescrever as propriedades correspondentes na raiz da biblioteca.
+
+$custom-all-weights-medium: null !default;
+$custom-all-weights-normal: null !default;
+$custom-all-weights-semi-bold: null !default;
+$custom-color-background-base: null !default;
+$custom-color-background-depth: null !default;
+$custom-color-background-lift: null !default;
+$custom-color-base-background-lift-light: null !default;
+$custom-color-base-neutral-dark-0: null !default;
+$custom-color-base-neutral-dark-16: null !default;
+$custom-color-base-neutral-dark-32: null !default;
+$custom-color-base-neutral-dark-4: null !default;
+$custom-color-base-neutral-dark-48: null !default;
+$custom-color-base-neutral-dark-64: null !default;
+$custom-color-base-neutral-dark-8: null !default;
+$custom-color-base-neutral-dark-88: null !default;
+$custom-color-base-neutral-light-0: null !default;
+$custom-color-base-neutral-light-16: null !default;
+$custom-color-base-neutral-light-32: null !default;
+$custom-color-base-neutral-light-4: null !default;
+$custom-color-base-neutral-light-48: null !default;
+$custom-color-base-neutral-light-64: null !default;
+$custom-color-base-neutral-light-8: null !default;
+$custom-color-base-neutral-light-88: null !default;
+$custom-color-button-primary-default-background: null !default;
+$custom-color-button-primary-default-border: null !default;
+$custom-color-button-primary-default-text: null !default;
+$custom-color-button-primary-hover-background: null !default;
+$custom-color-button-primary-hover-border: null !default;
+$custom-color-button-primary-hover-text: null !default;
+$custom-color-button-secondary-default-background: null !default;
+$custom-color-button-secondary-default-border: null !default;
+$custom-color-button-secondary-default-text: null !default;
+$custom-color-button-secondary-hover-background: null !default;
+$custom-color-button-secondary-hover-border: null !default;
+$custom-color-button-secondary-hover-text: null !default;
+$custom-color-color-grade-dark-100: null !default;
+$custom-color-color-grade-dark-48: null !default;
+$custom-color-color-grade-light-100: null !default;
+$custom-color-color-grade-light-16: null !default;
+$custom-color-color-grade-light-32: null !default;
+$custom-color-color-grade-light-4: null !default;
+$custom-color-color-grade-light-48: null !default;
+$custom-color-color-grade-light-64: null !default;
+$custom-color-color-grade-light-8: null !default;
+$custom-color-color-grade-light-88: null !default;
+$custom-color-icon-medium: null !default;
+$custom-color-input-active-background: null !default;
+$custom-color-input-active-border: null !default;
+$custom-color-input-active-text: null !default;
+$custom-color-input-default-background: null !default;
+$custom-color-input-default-border: null !default;
+$custom-color-input-default-text: null !default;
+$custom-color-text-body-medium: null !default;
+$custom-color-text-body-strong: null !default;
+$custom-color-text-body-subtle: null !default;
+$custom-color-text-heading-medium: null !default;
+$custom-color-text-heading-strong: null !default;
+$custom-color-text-label-medium: null !default;
+$custom-color-text-label-strong: null !default;
+$custom-font-body: null !default;
+$custom-font-button: null !default;
+$custom-font-family-body-1: null !default;
+$custom-font-family-body-2: null !default;
+$custom-font-family-body-3: null !default;
+$custom-font-family-button-1: null !default;
+$custom-font-family-button-2: null !default;
+$custom-font-family-h0: null !default;
+$custom-font-family-h1: null !default;
+$custom-font-family-h2: null !default;
+$custom-font-family-h3: null !default;
+$custom-font-family-h4: null !default;
+$custom-font-family-h5: null !default;
+$custom-font-family-h6: null !default;
+$custom-font-family-label-1: null !default;
+$custom-font-family-label-2: null !default;
+$custom-font-heading-sans: null !default;
+$custom-font-heading-serif: null !default;
+$custom-font-label: null !default;
+$custom-font-weight-body-1: null !default;
+$custom-font-weight-body-2: null !default;
+$custom-font-weight-body-3: null !default;
+$custom-font-weight-button-1: null !default;
+$custom-font-weight-button-2: null !default;
+$custom-font-weight-h0: null !default;
+$custom-font-weight-h1: null !default;
+$custom-font-weight-h2: null !default;
+$custom-font-weight-h3: null !default;
+$custom-font-weight-h4: null !default;
+$custom-font-weight-h5: null !default;
+$custom-font-weight-h6: null !default;
+$custom-font-weight-label-1: null !default;
+$custom-font-weight-label-2: null !default;
+$custom-letter-spacing-body-1: null !default;
+$custom-letter-spacing-body-2: null !default;
+$custom-letter-spacing-body-3: null !default;
+$custom-letter-spacing-button-1: null !default;
+$custom-letter-spacing-button-2: null !default;
+$custom-letter-spacing-h0: null !default;
+$custom-letter-spacing-h1: null !default;
+$custom-letter-spacing-h2: null !default;
+$custom-letter-spacing-h3: null !default;
+$custom-letter-spacing-h4: null !default;
+$custom-letter-spacing-h5: null !default;
+$custom-letter-spacing-h6: null !default;
+$custom-letter-spacing-label-1: null !default;
+$custom-letter-spacing-label-2: null !default;
+$custom-line-height-body-1: null !default;
+$custom-line-height-body-2: null !default;
+$custom-line-height-body-3: null !default;
+$custom-line-height-button-1: null !default;
+$custom-line-height-button-2: null !default;
+$custom-line-height-h0: null !default;
+$custom-line-height-h1: null !default;
+$custom-line-height-h2: null !default;
+$custom-line-height-h3: null !default;
+$custom-line-height-h4: null !default;
+$custom-line-height-h5: null !default;
+$custom-line-height-h6: null !default;
+$custom-line-height-label-1: null !default;
+$custom-line-height-label-2: null !default;
+$custom-radius-general-default: null !default;
+$custom-radius-general-full: null !default;
+$custom-radius-general-small: null !default;
+$custom-radius-ui-elements-button-base: null !default;
+$custom-radius-ui-elements-button-circle: null !default;
+$custom-radius-ui-elements-input: null !default;
+$custom-size-body-1: null !default;
+$custom-size-body-2: null !default;
+$custom-size-body-3: null !default;
+$custom-size-button-1: null !default;
+$custom-size-button-2: null !default;
+$custom-size-h0: null !default;
+$custom-size-h1: null !default;
+$custom-size-h2: null !default;
+$custom-size-h3: null !default;
+$custom-size-h4: null !default;
+$custom-size-h5: null !default;
+$custom-size-h6: null !default;
+$custom-size-label-1: null !default;
+$custom-size-label-2: null !default;
+$custom-weight-body: null !default;
+$custom-weight-body-bold: null !default;
+$custom-weight-button: null !default;
+$custom-weight-heading-sans: null !default;
+$custom-weight-label: null !default;
+
+:root {
+  @if $custom-all-weights-medium {
+    --_🔠-typography---all-weights--medium: #{$custom-all-weights-medium};
+  }
+
+  @if $custom-all-weights-normal {
+    --_🔠-typography---all-weights--normal: #{$custom-all-weights-normal};
+  }
+
+  @if $custom-all-weights-semi-bold {
+    --_🔠-typography---all-weights--semi-bold: #{$custom-all-weights-semi-bold};
+  }
+
+  @if $custom-color-background-base {
+    --_🎨-color--tokens---background--base: #{$custom-color-background-base};
+  }
+
+  @if $custom-color-background-depth {
+    --_🎨-color--tokens---background--depth: #{$custom-color-background-depth};
+  }
+
+  @if $custom-color-background-lift {
+    --_🎨-color--tokens---background--lift: #{$custom-color-background-lift};
+  }
+
+  @if $custom-color-base-background-lift-light {
+    --_🎨-color--base---background-lift--light: #{$custom-color-base-background-lift-light};
+  }
+
+  @if $custom-color-base-neutral-dark-0 {
+    --_🎨-color--base---neutral--dark-0: #{$custom-color-base-neutral-dark-0};
+  }
+
+  @if $custom-color-base-neutral-dark-16 {
+    --_🎨-color--base---neutral--dark-16: #{$custom-color-base-neutral-dark-16};
+  }
+
+  @if $custom-color-base-neutral-dark-32 {
+    --_🎨-color--base---neutral--dark-32: #{$custom-color-base-neutral-dark-32};
+  }
+
+  @if $custom-color-base-neutral-dark-4 {
+    --_🎨-color--base---neutral--dark-4: #{$custom-color-base-neutral-dark-4};
+  }
+
+  @if $custom-color-base-neutral-dark-48 {
+    --_🎨-color--base---neutral--dark-48: #{$custom-color-base-neutral-dark-48};
+  }
+
+  @if $custom-color-base-neutral-dark-64 {
+    --_🎨-color--base---neutral--dark-64: #{$custom-color-base-neutral-dark-64};
+  }
+
+  @if $custom-color-base-neutral-dark-8 {
+    --_🎨-color--base---neutral--dark-8: #{$custom-color-base-neutral-dark-8};
+  }
+
+  @if $custom-color-base-neutral-dark-88 {
+    --_🎨-color--base---neutral--dark-88: #{$custom-color-base-neutral-dark-88};
+  }
+
+  @if $custom-color-base-neutral-light-0 {
+    --_🎨-color--base---neutral--light-0: #{$custom-color-base-neutral-light-0};
+  }
+
+  @if $custom-color-base-neutral-light-16 {
+    --_🎨-color--base---neutral--light-16: #{$custom-color-base-neutral-light-16};
+  }
+
+  @if $custom-color-base-neutral-light-32 {
+    --_🎨-color--base---neutral--light-32: #{$custom-color-base-neutral-light-32};
+  }
+
+  @if $custom-color-base-neutral-light-4 {
+    --_🎨-color--base---neutral--light-4: #{$custom-color-base-neutral-light-4};
+  }
+
+  @if $custom-color-base-neutral-light-48 {
+    --_🎨-color--base---neutral--light-48: #{$custom-color-base-neutral-light-48};
+  }
+
+  @if $custom-color-base-neutral-light-64 {
+    --_🎨-color--base---neutral--light-64: #{$custom-color-base-neutral-light-64};
+  }
+
+  @if $custom-color-base-neutral-light-8 {
+    --_🎨-color--base---neutral--light-8: #{$custom-color-base-neutral-light-8};
+  }
+
+  @if $custom-color-base-neutral-light-88 {
+    --_🎨-color--base---neutral--light-88: #{$custom-color-base-neutral-light-88};
+  }
+
+  @if $custom-color-button-primary-default-background {
+    --_🎨-color--tokens---button-primary-default--background: #{$custom-color-button-primary-default-background};
+  }
+
+  @if $custom-color-button-primary-default-border {
+    --_🎨-color--tokens---button-primary-default--border: #{$custom-color-button-primary-default-border};
+  }
+
+  @if $custom-color-button-primary-default-text {
+    --_🎨-color--tokens---button-primary-default--text: #{$custom-color-button-primary-default-text};
+  }
+
+  @if $custom-color-button-primary-hover-background {
+    --_🎨-color--tokens---button-primary-hover--background: #{$custom-color-button-primary-hover-background};
+  }
+
+  @if $custom-color-button-primary-hover-border {
+    --_🎨-color--tokens---button-primary-hover--border: #{$custom-color-button-primary-hover-border};
+  }
+
+  @if $custom-color-button-primary-hover-text {
+    --_🎨-color--tokens---button-primary-hover--text: #{$custom-color-button-primary-hover-text};
+  }
+
+  @if $custom-color-button-secondary-default-background {
+    --_🎨-color--tokens---button-secondary-default--background: #{$custom-color-button-secondary-default-background};
+  }
+
+  @if $custom-color-button-secondary-default-border {
+    --_🎨-color--tokens---button-secondary-default--border: #{$custom-color-button-secondary-default-border};
+  }
+
+  @if $custom-color-button-secondary-default-text {
+    --_🎨-color--tokens---button-secondary-default--text: #{$custom-color-button-secondary-default-text};
+  }
+
+  @if $custom-color-button-secondary-hover-background {
+    --_🎨-color--tokens---button-secondary-hover--background: #{$custom-color-button-secondary-hover-background};
+  }
+
+  @if $custom-color-button-secondary-hover-border {
+    --_🎨-color--tokens---button-secondary-hover--border: #{$custom-color-button-secondary-hover-border};
+  }
+
+  @if $custom-color-button-secondary-hover-text {
+    --_🎨-color--tokens---button-secondary-hover--text: #{$custom-color-button-secondary-hover-text};
+  }
+
+  @if $custom-color-color-grade-dark-100 {
+    --_🎨-color--tokens---color-grade--dark-100: #{$custom-color-color-grade-dark-100};
+  }
+
+  @if $custom-color-color-grade-dark-48 {
+    --_🎨-color--tokens---color-grade--dark-48: #{$custom-color-color-grade-dark-48};
+  }
+
+  @if $custom-color-color-grade-light-100 {
+    --_🎨-color--tokens---color-grade--light-100: #{$custom-color-color-grade-light-100};
+  }
+
+  @if $custom-color-color-grade-light-16 {
+    --_🎨-color--tokens---color-grade--light-16: #{$custom-color-color-grade-light-16};
+  }
+
+  @if $custom-color-color-grade-light-32 {
+    --_🎨-color--tokens---color-grade--light-32: #{$custom-color-color-grade-light-32};
+  }
+
+  @if $custom-color-color-grade-light-4 {
+    --_🎨-color--tokens---color-grade--light-4: #{$custom-color-color-grade-light-4};
+  }
+
+  @if $custom-color-color-grade-light-48 {
+    --_🎨-color--tokens---color-grade--light-48: #{$custom-color-color-grade-light-48};
+  }
+
+  @if $custom-color-color-grade-light-64 {
+    --_🎨-color--tokens---color-grade--light-64: #{$custom-color-color-grade-light-64};
+  }
+
+  @if $custom-color-color-grade-light-8 {
+    --_🎨-color--tokens---color-grade--light-8: #{$custom-color-color-grade-light-8};
+  }
+
+  @if $custom-color-color-grade-light-88 {
+    --_🎨-color--tokens---color-grade--light-88: #{$custom-color-color-grade-light-88};
+  }
+
+  @if $custom-color-icon-medium {
+    --_🎨-color--tokens---icon--medium: #{$custom-color-icon-medium};
+  }
+
+  @if $custom-color-input-active-background {
+    --_🎨-color--tokens---input-active--background: #{$custom-color-input-active-background};
+  }
+
+  @if $custom-color-input-active-border {
+    --_🎨-color--tokens---input-active--border: #{$custom-color-input-active-border};
+  }
+
+  @if $custom-color-input-active-text {
+    --_🎨-color--tokens---input-active--text: #{$custom-color-input-active-text};
+  }
+
+  @if $custom-color-input-default-background {
+    --_🎨-color--tokens---input-default--background: #{$custom-color-input-default-background};
+  }
+
+  @if $custom-color-input-default-border {
+    --_🎨-color--tokens---input-default--border: #{$custom-color-input-default-border};
+  }
+
+  @if $custom-color-input-default-text {
+    --_🎨-color--tokens---input-default--text: #{$custom-color-input-default-text};
+  }
+
+  @if $custom-color-text-body-medium {
+    --_🎨-color--tokens---text-body--medium: #{$custom-color-text-body-medium};
+  }
+
+  @if $custom-color-text-body-strong {
+    --_🎨-color--tokens---text-body--strong: #{$custom-color-text-body-strong};
+  }
+
+  @if $custom-color-text-body-subtle {
+    --_🎨-color--tokens---text-body--subtle: #{$custom-color-text-body-subtle};
+  }
+
+  @if $custom-color-text-heading-medium {
+    --_🎨-color--tokens---text-heading--medium: #{$custom-color-text-heading-medium};
+  }
+
+  @if $custom-color-text-heading-strong {
+    --_🎨-color--tokens---text-heading--strong: #{$custom-color-text-heading-strong};
+  }
+
+  @if $custom-color-text-label-medium {
+    --_🎨-color--tokens---text-label--medium: #{$custom-color-text-label-medium};
+  }
+
+  @if $custom-color-text-label-strong {
+    --_🎨-color--tokens---text-label--strong: #{$custom-color-text-label-strong};
+  }
+
+  @if $custom-font-body {
+    --_🔠-typography---font--body: #{$custom-font-body};
+  }
+
+  @if $custom-font-button {
+    --_🔠-typography---font--button: #{$custom-font-button};
+  }
+
+  @if $custom-font-family-body-1 {
+    --_🔠-typography---font-family--body-1: #{$custom-font-family-body-1};
+  }
+
+  @if $custom-font-family-body-2 {
+    --_🔠-typography---font-family--body-2: #{$custom-font-family-body-2};
+  }
+
+  @if $custom-font-family-body-3 {
+    --_🔠-typography---font-family--body-3: #{$custom-font-family-body-3};
+  }
+
+  @if $custom-font-family-button-1 {
+    --_🔠-typography---font-family--button-1: #{$custom-font-family-button-1};
+  }
+
+  @if $custom-font-family-button-2 {
+    --_🔠-typography---font-family--button-2: #{$custom-font-family-button-2};
+  }
+
+  @if $custom-font-family-h0 {
+    --_🔠-typography---font-family--h0: #{$custom-font-family-h0};
+  }
+
+  @if $custom-font-family-h1 {
+    --_🔠-typography---font-family--h1: #{$custom-font-family-h1};
+  }
+
+  @if $custom-font-family-h2 {
+    --_🔠-typography---font-family--h2: #{$custom-font-family-h2};
+  }
+
+  @if $custom-font-family-h3 {
+    --_🔠-typography---font-family--h3: #{$custom-font-family-h3};
+  }
+
+  @if $custom-font-family-h4 {
+    --_🔠-typography---font-family--h4: #{$custom-font-family-h4};
+  }
+
+  @if $custom-font-family-h5 {
+    --_🔠-typography---font-family--h5: #{$custom-font-family-h5};
+  }
+
+  @if $custom-font-family-h6 {
+    --_🔠-typography---font-family--h6: #{$custom-font-family-h6};
+  }
+
+  @if $custom-font-family-label-1 {
+    --_🔠-typography---font-family--label-1: #{$custom-font-family-label-1};
+  }
+
+  @if $custom-font-family-label-2 {
+    --_🔠-typography---font-family--label-2: #{$custom-font-family-label-2};
+  }
+
+  @if $custom-font-heading-sans {
+    --_🔠-typography---font--heading-sans: #{$custom-font-heading-sans};
+  }
+
+  @if $custom-font-heading-serif {
+    --_🔠-typography---font--heading-serif: #{$custom-font-heading-serif};
+  }
+
+  @if $custom-font-label {
+    --_🔠-typography---font--label: #{$custom-font-label};
+  }
+
+  @if $custom-font-weight-body-1 {
+    --_🔠-typography---font-weight--body-1: #{$custom-font-weight-body-1};
+  }
+
+  @if $custom-font-weight-body-2 {
+    --_🔠-typography---font-weight--body-2: #{$custom-font-weight-body-2};
+  }
+
+  @if $custom-font-weight-body-3 {
+    --_🔠-typography---font-weight--body-3: #{$custom-font-weight-body-3};
+  }
+
+  @if $custom-font-weight-button-1 {
+    --_🔠-typography---font-weight--button-1: #{$custom-font-weight-button-1};
+  }
+
+  @if $custom-font-weight-button-2 {
+    --_🔠-typography---font-weight--button-2: #{$custom-font-weight-button-2};
+  }
+
+  @if $custom-font-weight-h0 {
+    --_🔠-typography---font-weight--h0: #{$custom-font-weight-h0};
+  }
+
+  @if $custom-font-weight-h1 {
+    --_🔠-typography---font-weight--h1: #{$custom-font-weight-h1};
+  }
+
+  @if $custom-font-weight-h2 {
+    --_🔠-typography---font-weight--h2: #{$custom-font-weight-h2};
+  }
+
+  @if $custom-font-weight-h3 {
+    --_🔠-typography---font-weight--h3: #{$custom-font-weight-h3};
+  }
+
+  @if $custom-font-weight-h4 {
+    --_🔠-typography---font-weight--h4: #{$custom-font-weight-h4};
+  }
+
+  @if $custom-font-weight-h5 {
+    --_🔠-typography---font-weight--h5: #{$custom-font-weight-h5};
+  }
+
+  @if $custom-font-weight-h6 {
+    --_🔠-typography---font-weight--h6: #{$custom-font-weight-h6};
+  }
+
+  @if $custom-font-weight-label-1 {
+    --_🔠-typography---font-weight--label-1: #{$custom-font-weight-label-1};
+  }
+
+  @if $custom-font-weight-label-2 {
+    --_🔠-typography---font-weight--label-2: #{$custom-font-weight-label-2};
+  }
+
+  @if $custom-letter-spacing-body-1 {
+    --_🔠-typography---letter-spacing--body-1: #{$custom-letter-spacing-body-1};
+  }
+
+  @if $custom-letter-spacing-body-2 {
+    --_🔠-typography---letter-spacing--body-2: #{$custom-letter-spacing-body-2};
+  }
+
+  @if $custom-letter-spacing-body-3 {
+    --_🔠-typography---letter-spacing--body-3: #{$custom-letter-spacing-body-3};
+  }
+
+  @if $custom-letter-spacing-button-1 {
+    --_🔠-typography---letter-spacing--button-1: #{$custom-letter-spacing-button-1};
+  }
+
+  @if $custom-letter-spacing-button-2 {
+    --_🔠-typography---letter-spacing--button-2: #{$custom-letter-spacing-button-2};
+  }
+
+  @if $custom-letter-spacing-h0 {
+    --_🔠-typography---letter-spacing--h0: #{$custom-letter-spacing-h0};
+  }
+
+  @if $custom-letter-spacing-h1 {
+    --_🔠-typography---letter-spacing--h1: #{$custom-letter-spacing-h1};
+  }
+
+  @if $custom-letter-spacing-h2 {
+    --_🔠-typography---letter-spacing--h2: #{$custom-letter-spacing-h2};
+  }
+
+  @if $custom-letter-spacing-h3 {
+    --_🔠-typography---letter-spacing--h3: #{$custom-letter-spacing-h3};
+  }
+
+  @if $custom-letter-spacing-h4 {
+    --_🔠-typography---letter-spacing--h4: #{$custom-letter-spacing-h4};
+  }
+
+  @if $custom-letter-spacing-h5 {
+    --_🔠-typography---letter-spacing--h5: #{$custom-letter-spacing-h5};
+  }
+
+  @if $custom-letter-spacing-h6 {
+    --_🔠-typography---letter-spacing--h6: #{$custom-letter-spacing-h6};
+  }
+
+  @if $custom-letter-spacing-label-1 {
+    --_🔠-typography---letter-spacing--label-1: #{$custom-letter-spacing-label-1};
+  }
+
+  @if $custom-letter-spacing-label-2 {
+    --_🔠-typography---letter-spacing--label-2: #{$custom-letter-spacing-label-2};
+  }
+
+  @if $custom-line-height-body-1 {
+    --_🔠-typography---line-height--body-1: #{$custom-line-height-body-1};
+  }
+
+  @if $custom-line-height-body-2 {
+    --_🔠-typography---line-height--body-2: #{$custom-line-height-body-2};
+  }
+
+  @if $custom-line-height-body-3 {
+    --_🔠-typography---line-height--body-3: #{$custom-line-height-body-3};
+  }
+
+  @if $custom-line-height-button-1 {
+    --_🔠-typography---line-height--button-1: #{$custom-line-height-button-1};
+  }
+
+  @if $custom-line-height-button-2 {
+    --_🔠-typography---line-height--button-2: #{$custom-line-height-button-2};
+  }
+
+  @if $custom-line-height-h0 {
+    --_🔠-typography---line-height--h0: #{$custom-line-height-h0};
+  }
+
+  @if $custom-line-height-h1 {
+    --_🔠-typography---line-height--h1: #{$custom-line-height-h1};
+  }
+
+  @if $custom-line-height-h2 {
+    --_🔠-typography---line-height--h2: #{$custom-line-height-h2};
+  }
+
+  @if $custom-line-height-h3 {
+    --_🔠-typography---line-height--h3: #{$custom-line-height-h3};
+  }
+
+  @if $custom-line-height-h4 {
+    --_🔠-typography---line-height--h4: #{$custom-line-height-h4};
+  }
+
+  @if $custom-line-height-h5 {
+    --_🔠-typography---line-height--h5: #{$custom-line-height-h5};
+  }
+
+  @if $custom-line-height-h6 {
+    --_🔠-typography---line-height--h6: #{$custom-line-height-h6};
+  }
+
+  @if $custom-line-height-label-1 {
+    --_🔠-typography---line-height--label-1: #{$custom-line-height-label-1};
+  }
+
+  @if $custom-line-height-label-2 {
+    --_🔠-typography---line-height--label-2: #{$custom-line-height-label-2};
+  }
+
+  @if $custom-radius-general-default {
+    --_🔘-radius---general--default: #{$custom-radius-general-default};
+  }
+
+  @if $custom-radius-general-full {
+    --_🔘-radius---general--full: #{$custom-radius-general-full};
+  }
+
+  @if $custom-radius-general-small {
+    --_🔘-radius---general--small: #{$custom-radius-general-small};
+  }
+
+  @if $custom-radius-ui-elements-button-base {
+    --_🔘-radius---ui-elements--button-base: #{$custom-radius-ui-elements-button-base};
+  }
+
+  @if $custom-radius-ui-elements-button-circle {
+    --_🔘-radius---ui-elements--button-circle: #{$custom-radius-ui-elements-button-circle};
+  }
+
+  @if $custom-radius-ui-elements-input {
+    --_🔘-radius---ui-elements--input: #{$custom-radius-ui-elements-input};
+  }
+
+  @if $custom-size-body-1 {
+    --_🔠-typography---size--body-1: #{$custom-size-body-1};
+  }
+
+  @if $custom-size-body-2 {
+    --_🔠-typography---size--body-2: #{$custom-size-body-2};
+  }
+
+  @if $custom-size-body-3 {
+    --_🔠-typography---size--body-3: #{$custom-size-body-3};
+  }
+
+  @if $custom-size-button-1 {
+    --_🔠-typography---size--button-1: #{$custom-size-button-1};
+  }
+
+  @if $custom-size-button-2 {
+    --_🔠-typography---size--button-2: #{$custom-size-button-2};
+  }
+
+  @if $custom-size-h0 {
+    --_🔠-typography---size--h0: #{$custom-size-h0};
+  }
+
+  @if $custom-size-h1 {
+    --_🔠-typography---size--h1: #{$custom-size-h1};
+  }
+
+  @if $custom-size-h2 {
+    --_🔠-typography---size--h2: #{$custom-size-h2};
+  }
+
+  @if $custom-size-h3 {
+    --_🔠-typography---size--h3: #{$custom-size-h3};
+  }
+
+  @if $custom-size-h4 {
+    --_🔠-typography---size--h4: #{$custom-size-h4};
+  }
+
+  @if $custom-size-h5 {
+    --_🔠-typography---size--h5: #{$custom-size-h5};
+  }
+
+  @if $custom-size-h6 {
+    --_🔠-typography---size--h6: #{$custom-size-h6};
+  }
+
+  @if $custom-size-label-1 {
+    --_🔠-typography---size--label-1: #{$custom-size-label-1};
+  }
+
+  @if $custom-size-label-2 {
+    --_🔠-typography---size--label-2: #{$custom-size-label-2};
+  }
+
+  @if $custom-weight-body {
+    --_🔠-typography---weight--body: #{$custom-weight-body};
+  }
+
+  @if $custom-weight-body-bold {
+    --_🔠-typography---weight--body-bold: #{$custom-weight-body-bold};
+  }
+
+  @if $custom-weight-button {
+    --_🔠-typography---weight--button: #{$custom-weight-button};
+  }
+
+  @if $custom-weight-heading-sans {
+    --_🔠-typography---weight--heading-sans: #{$custom-weight-heading-sans};
+  }
+
+  @if $custom-weight-label {
+    --_🔠-typography---weight--label: #{$custom-weight-label};
+  }
+}
+
+// --------------------------------------------------------
+// Bridge Tokens
+// --------------------------------------------------------
+// Nomes amigáveis mapeados de volta para as CSS variables ativas.
+
+$all-weights-medium: var(--_🔠-typography---all-weights--medium);
+$all-weights-normal: var(--_🔠-typography---all-weights--normal);
+$all-weights-semi-bold: var(--_🔠-typography---all-weights--semi-bold);
+$color-background-base: var(--_🎨-color--tokens---background--base);
+$color-background-depth: var(--_🎨-color--tokens---background--depth);
+$color-background-lift: var(--_🎨-color--tokens---background--lift);
+$color-base-background-lift-light: var(--_🎨-color--base---background-lift--light);
+$color-base-neutral-dark-0: var(--_🎨-color--base---neutral--dark-0);
+$color-base-neutral-dark-16: var(--_🎨-color--base---neutral--dark-16);
+$color-base-neutral-dark-32: var(--_🎨-color--base---neutral--dark-32);
+$color-base-neutral-dark-4: var(--_🎨-color--base---neutral--dark-4);
+$color-base-neutral-dark-48: var(--_🎨-color--base---neutral--dark-48);
+$color-base-neutral-dark-64: var(--_🎨-color--base---neutral--dark-64);
+$color-base-neutral-dark-8: var(--_🎨-color--base---neutral--dark-8);
+$color-base-neutral-dark-88: var(--_🎨-color--base---neutral--dark-88);
+$color-base-neutral-light-0: var(--_🎨-color--base---neutral--light-0);
+$color-base-neutral-light-16: var(--_🎨-color--base---neutral--light-16);
+$color-base-neutral-light-32: var(--_🎨-color--base---neutral--light-32);
+$color-base-neutral-light-4: var(--_🎨-color--base---neutral--light-4);
+$color-base-neutral-light-48: var(--_🎨-color--base---neutral--light-48);
+$color-base-neutral-light-64: var(--_🎨-color--base---neutral--light-64);
+$color-base-neutral-light-8: var(--_🎨-color--base---neutral--light-8);
+$color-base-neutral-light-88: var(--_🎨-color--base---neutral--light-88);
+$color-button-primary-default-background: var(--_🎨-color--tokens---button-primary-default--background);
+$color-button-primary-default-border: var(--_🎨-color--tokens---button-primary-default--border);
+$color-button-primary-default-text: var(--_🎨-color--tokens---button-primary-default--text);
+$color-button-primary-hover-background: var(--_🎨-color--tokens---button-primary-hover--background);
+$color-button-primary-hover-border: var(--_🎨-color--tokens---button-primary-hover--border);
+$color-button-primary-hover-text: var(--_🎨-color--tokens---button-primary-hover--text);
+$color-button-secondary-default-background: var(--_🎨-color--tokens---button-secondary-default--background);
+$color-button-secondary-default-border: var(--_🎨-color--tokens---button-secondary-default--border);
+$color-button-secondary-default-text: var(--_🎨-color--tokens---button-secondary-default--text);
+$color-button-secondary-hover-background: var(--_🎨-color--tokens---button-secondary-hover--background);
+$color-button-secondary-hover-border: var(--_🎨-color--tokens---button-secondary-hover--border);
+$color-button-secondary-hover-text: var(--_🎨-color--tokens---button-secondary-hover--text);
+$color-color-grade-dark-100: var(--_🎨-color--tokens---color-grade--dark-100);
+$color-color-grade-dark-48: var(--_🎨-color--tokens---color-grade--dark-48);
+$color-color-grade-light-100: var(--_🎨-color--tokens---color-grade--light-100);
+$color-color-grade-light-16: var(--_🎨-color--tokens---color-grade--light-16);
+$color-color-grade-light-32: var(--_🎨-color--tokens---color-grade--light-32);
+$color-color-grade-light-4: var(--_🎨-color--tokens---color-grade--light-4);
+$color-color-grade-light-48: var(--_🎨-color--tokens---color-grade--light-48);
+$color-color-grade-light-64: var(--_🎨-color--tokens---color-grade--light-64);
+$color-color-grade-light-8: var(--_🎨-color--tokens---color-grade--light-8);
+$color-color-grade-light-88: var(--_🎨-color--tokens---color-grade--light-88);
+$color-icon-medium: var(--_🎨-color--tokens---icon--medium);
+$color-input-active-background: var(--_🎨-color--tokens---input-active--background);
+$color-input-active-border: var(--_🎨-color--tokens---input-active--border);
+$color-input-active-text: var(--_🎨-color--tokens---input-active--text);
+$color-input-default-background: var(--_🎨-color--tokens---input-default--background);
+$color-input-default-border: var(--_🎨-color--tokens---input-default--border);
+$color-input-default-text: var(--_🎨-color--tokens---input-default--text);
+$color-text-body-medium: var(--_🎨-color--tokens---text-body--medium);
+$color-text-body-strong: var(--_🎨-color--tokens---text-body--strong);
+$color-text-body-subtle: var(--_🎨-color--tokens---text-body--subtle);
+$color-text-heading-medium: var(--_🎨-color--tokens---text-heading--medium);
+$color-text-heading-strong: var(--_🎨-color--tokens---text-heading--strong);
+$color-text-label-medium: var(--_🎨-color--tokens---text-label--medium);
+$color-text-label-strong: var(--_🎨-color--tokens---text-label--strong);
+$font-body: var(--_🔠-typography---font--body);
+$font-button: var(--_🔠-typography---font--button);
+$font-family-body-1: var(--_🔠-typography---font-family--body-1);
+$font-family-body-2: var(--_🔠-typography---font-family--body-2);
+$font-family-body-3: var(--_🔠-typography---font-family--body-3);
+$font-family-button-1: var(--_🔠-typography---font-family--button-1);
+$font-family-button-2: var(--_🔠-typography---font-family--button-2);
+$font-family-h0: var(--_🔠-typography---font-family--h0);
+$font-family-h1: var(--_🔠-typography---font-family--h1);
+$font-family-h2: var(--_🔠-typography---font-family--h2);
+$font-family-h3: var(--_🔠-typography---font-family--h3);
+$font-family-h4: var(--_🔠-typography---font-family--h4);
+$font-family-h5: var(--_🔠-typography---font-family--h5);
+$font-family-h6: var(--_🔠-typography---font-family--h6);
+$font-family-label-1: var(--_🔠-typography---font-family--label-1);
+$font-family-label-2: var(--_🔠-typography---font-family--label-2);
+$font-heading-sans: var(--_🔠-typography---font--heading-sans);
+$font-heading-serif: var(--_🔠-typography---font--heading-serif);
+$font-label: var(--_🔠-typography---font--label);
+$font-weight-body-1: var(--_🔠-typography---font-weight--body-1);
+$font-weight-body-2: var(--_🔠-typography---font-weight--body-2);
+$font-weight-body-3: var(--_🔠-typography---font-weight--body-3);
+$font-weight-button-1: var(--_🔠-typography---font-weight--button-1);
+$font-weight-button-2: var(--_🔠-typography---font-weight--button-2);
+$font-weight-h0: var(--_🔠-typography---font-weight--h0);
+$font-weight-h1: var(--_🔠-typography---font-weight--h1);
+$font-weight-h2: var(--_🔠-typography---font-weight--h2);
+$font-weight-h3: var(--_🔠-typography---font-weight--h3);
+$font-weight-h4: var(--_🔠-typography---font-weight--h4);
+$font-weight-h5: var(--_🔠-typography---font-weight--h5);
+$font-weight-h6: var(--_🔠-typography---font-weight--h6);
+$font-weight-label-1: var(--_🔠-typography---font-weight--label-1);
+$font-weight-label-2: var(--_🔠-typography---font-weight--label-2);
+$letter-spacing-body-1: var(--_🔠-typography---letter-spacing--body-1);
+$letter-spacing-body-2: var(--_🔠-typography---letter-spacing--body-2);
+$letter-spacing-body-3: var(--_🔠-typography---letter-spacing--body-3);
+$letter-spacing-button-1: var(--_🔠-typography---letter-spacing--button-1);
+$letter-spacing-button-2: var(--_🔠-typography---letter-spacing--button-2);
+$letter-spacing-h0: var(--_🔠-typography---letter-spacing--h0);
+$letter-spacing-h1: var(--_🔠-typography---letter-spacing--h1);
+$letter-spacing-h2: var(--_🔠-typography---letter-spacing--h2);
+$letter-spacing-h3: var(--_🔠-typography---letter-spacing--h3);
+$letter-spacing-h4: var(--_🔠-typography---letter-spacing--h4);
+$letter-spacing-h5: var(--_🔠-typography---letter-spacing--h5);
+$letter-spacing-h6: var(--_🔠-typography---letter-spacing--h6);
+$letter-spacing-label-1: var(--_🔠-typography---letter-spacing--label-1);
+$letter-spacing-label-2: var(--_🔠-typography---letter-spacing--label-2);
+$line-height-body-1: var(--_🔠-typography---line-height--body-1);
+$line-height-body-2: var(--_🔠-typography---line-height--body-2);
+$line-height-body-3: var(--_🔠-typography---line-height--body-3);
+$line-height-button-1: var(--_🔠-typography---line-height--button-1);
+$line-height-button-2: var(--_🔠-typography---line-height--button-2);
+$line-height-h0: var(--_🔠-typography---line-height--h0);
+$line-height-h1: var(--_🔠-typography---line-height--h1);
+$line-height-h2: var(--_🔠-typography---line-height--h2);
+$line-height-h3: var(--_🔠-typography---line-height--h3);
+$line-height-h4: var(--_🔠-typography---line-height--h4);
+$line-height-h5: var(--_🔠-typography---line-height--h5);
+$line-height-h6: var(--_🔠-typography---line-height--h6);
+$line-height-label-1: var(--_🔠-typography---line-height--label-1);
+$line-height-label-2: var(--_🔠-typography---line-height--label-2);
+$radius-general-default: var(--_🔘-radius---general--default);
+$radius-general-full: var(--_🔘-radius---general--full);
+$radius-general-small: var(--_🔘-radius---general--small);
+$radius-ui-elements-button-base: var(--_🔘-radius---ui-elements--button-base);
+$radius-ui-elements-button-circle: var(--_🔘-radius---ui-elements--button-circle);
+$radius-ui-elements-input: var(--_🔘-radius---ui-elements--input);
+$size-body-1: var(--_🔠-typography---size--body-1);
+$size-body-2: var(--_🔠-typography---size--body-2);
+$size-body-3: var(--_🔠-typography---size--body-3);
+$size-button-1: var(--_🔠-typography---size--button-1);
+$size-button-2: var(--_🔠-typography---size--button-2);
+$size-h0: var(--_🔠-typography---size--h0);
+$size-h1: var(--_🔠-typography---size--h1);
+$size-h2: var(--_🔠-typography---size--h2);
+$size-h3: var(--_🔠-typography---size--h3);
+$size-h4: var(--_🔠-typography---size--h4);
+$size-h5: var(--_🔠-typography---size--h5);
+$size-h6: var(--_🔠-typography---size--h6);
+$size-label-1: var(--_🔠-typography---size--label-1);
+$size-label-2: var(--_🔠-typography---size--label-2);
+$weight-body: var(--_🔠-typography---weight--body);
+$weight-body-bold: var(--_🔠-typography---weight--body-bold);
+$weight-button: var(--_🔠-typography---weight--button);
+$weight-heading-sans: var(--_🔠-typography---weight--heading-sans);
+$weight-label: var(--_🔠-typography---weight--label);

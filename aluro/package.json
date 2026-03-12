@@ -1,0 +1,16 @@
+{
+  "name": "aluro",
+  "version": "1.0.0",
+  "description": "Aluro project SCSS to CSS automatic compilation",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass sass/main.scss css/main.css --style compressed",
+    "sass:watch": "sass --watch sass/main.scss:css/main.css --style expanded"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

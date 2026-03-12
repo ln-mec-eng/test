@@ -1,0 +1,301 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+
+a {
+  background-color: $color-button-primary-default-background; // $cor-CTA;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  color: $color-black;
+  background: $color-warning-bright;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: $color-button-primary-hover-text; // $cor-texto01;
+  background-color: $color-background-base; // $cor-leandro;
+  min-height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+blockquote {
+  border-left: 5px solid $color-gray-50;
+  margin: 0 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+figure {
+  margin: 0 0 10px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+:root {
+  --_🔠-typography---font-family--body-2: $font-body;
+  --_🔠-typography---size--body-2: 16px;
+  --_🔠-typography---line-height--body-2: 24px;
+  --_🔠-typography---font-weight--body-2: $weight-body;
+  --_🔠-typography---letter-spacing--body-2: 0px;
+  --_🔠-typography---font-family--h1: $font-heading-sans;
+  --_🔠-typography---size--h1: 60px;
+  --_🔠-typography---line-height--h1: 64px;
+  --_🔠-typography---font-weight--h1: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h1: -2.5px;
+  --_🔠-typography---font-family--h2: $font-heading-sans;
+  --_🔠-typography---size--h2: 48px;
+  --_🔠-typography---line-height--h2: 52px;
+  --_🔠-typography---font-weight--h2: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h2: -2px;
+  --_🔠-typography---font-family--h3: $font-heading-sans;
+  --_🔠-typography---size--h3: 40px;
+  --_🔠-typography---line-height--h3: 44px;
+  --_🔠-typography---font-weight--h3: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h3: -1px;
+  --_🔠-typography---font-family--h4: $font-heading-sans;
+  --_🔠-typography---size--h4: 32px;
+  --_🔠-typography---line-height--h4: 40px;
+  --_🔠-typography---font-weight--h4: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h4: -1px;
+  --_🔠-typography---font-family--h5: $font-heading-sans;
+  --_🔠-typography---size--h5: 28px;
+  --_🔠-typography---line-height--h5: 32px;
+  --_🔠-typography---font-weight--h5: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h5: -1px;
+  --_🔠-typography---font-family--h6: $font-heading-sans;
+  --_🔠-typography---size--h6: 20px;
+  --_🔠-typography---line-height--h6: 24px;
+  --_🔠-typography---font-weight--h6: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h6: -.5px;
+  --_🔠-typography---font--heading-serif: "Instrument Serif", sans-serif;
+  --spacing--12: 12px;
+  --_🔠-typography---font-family--button-2: $font-button;
+  --_🔠-typography---size--button-2: 14px;
+  --_🔠-typography---line-height--button-2: 16px;
+  --_🔠-typography---font-weight--button-2: $weight-button;
+  --_🔠-typography---letter-spacing--button-2: 0px;
+  --spacing--0: 0px;
+  --spacing--16: 16px;
+  --_🔘-radius---ui-elements--input: 8px;
+  --_🔠-typography---font-family--label-1: $font-label;
+  --_🔠-typography---size--label-1: 12px;
+  --_🔠-typography---line-height--label-1: 16px;
+  --_🔠-typography---font-weight--label-1: $weight-label;
+  --_🔠-typography---letter-spacing--label-1: 1px;
+  --spacing--24: 24px;
+  --container--small: 1080px;
+  --grid--page-padding: 48px;
+  --_🔠-typography---font-family--body-3: $font-body;
+  --_🔠-typography---size--body-3: 14px;
+  --_🔠-typography---line-height--body-3: 16px;
+  --_🔠-typography---font-weight--body-3: $weight-body;
+  --_🔠-typography---letter-spacing--body-3: 0px;
+  --section-padding--small: 80px;
+  --section-padding--large: 160px;
+  --spacing--64: 64px;
+  --_spacing---radius--24\<deleted\|variable-7ed2b0ff-bd46-a18a-a853-254e7a6feaf7\>: 24px;
+  --section-padding--extra-small: 32px;
+  --_🔠-typography---font-family--body-1: $font-body;
+  --_🔠-typography---size--body-1: 20px;
+  --_🔠-typography---line-height--body-1: 28px;
+  --_🔠-typography---font-weight--body-1: $weight-body;
+  --_🔠-typography---letter-spacing--body-1: 0px;
+  --_🔠-typography---font-family--label-2: $font-label;
+  --_🔠-typography---size--label-2: 10px;
+  --_🔠-typography---line-height--label-2: 12px;
+  --_🔠-typography---font-weight--label-2: $weight-label;
+  --_🔠-typography---letter-spacing--label-2: 1px;
+  --_🔘-radius---general--default: 12px;
+  --spacing--48: 48px;
+  --spacing--32: 32px;
+  --spacing--8: 8px;
+  --_🔘-radius---ui-elements--button-base: 8px;
+  --_🔠-typography---font-family--button-1: $font-button;
+  --_🔠-typography---size--button-1: 16px;
+  --_🔠-typography---line-height--button-1: 20px;
+  --_🔠-typography---font-weight--button-1: $weight-button;
+  --_🔠-typography---letter-spacing--button-1: 0px;
+  --_❇️-icon---icon-size--small: 12px;
+  --spacing--4: 4px;
+  --_🔠-typography---font-family--h0: $font-heading-sans;
+  --_🔠-typography---size--h0: 124px;
+  --_🔠-typography---line-height--h0: 124px;
+  --_🔠-typography---font-weight--h0: $weight-heading-sans;
+  --_🔠-typography---letter-spacing--h0: -4px;
+  --_🔘-radius---ui-elements--button-circle: 24px;
+  --_❇️-icon---icon-size--medium: 16px;
+  --_🔠-typography---weight--body-bold: $all-weights-semi-bold;
+  --_🔘-radius---general--small: 8px;
+  --_❇️-icon---icon-stroke: 1.5px;
+  --spacing--20: 20px;
+  --max-width--4-columns: 448px;
+  --max-width--5-columns: 564px;
+  --max-width--2-columns: 216px;
+  --grid--column-gap: 16px;
+  --_🔘-radius---general--full: 100vw;
+  --max-width--6-columns: 680px;
+  --max-width--3-columns: 332px;
+  --spacing--120: 120px;
+  --max-width--7-columns: 796px;
+  --_❇️-icon---icon-size--large: 20px;
+  --_🔠-typography---font--heading-sans: "DM Sans", sans-serif;
+  --_🔠-typography---font--body: "DM Sans", sans-serif;
+  --_🔠-typography---font--label: "DM Sans", sans-serif;
+  --_🔠-typography---font--button: "DM Sans", sans-serif;
+  --_🔠-typography---weight--heading-serif: $all-weights-medium;
+  --_🔠-typography---weight--heading-sans: $all-weights-medium;
+  --_🔠-typography---weight--body: $all-weights-normal;
+  --_🔠-typography---weight--label: $all-weights-normal;
+  --_🔠-typography---weight--button: $all-weights-medium;
+  --_🔘-radius---general--large: 24px;
+  --spacing--80: 80px;
+  --section-padding--extra-large: 200px;
+  --section-padding--medium: 120px;
+  --max-width--8-columns: 912px;
+  --max-width--9-columns: 1028px;
+  --max-width--10-columns: 1144px;
+  --max-width--12-columns: 1376px;
+  --grid--content-gap: 120px;
+  --container--main: 1800px;
+  --_🔘-radius---ui-elements--tag: 16px;
+  --_❇️-icon---icon-size--extra-large: 36px;
+  --_🔠-typography---all-weights--thin: 100;
+  --_🔠-typography---all-weights--extra-light: 200;
+  --_🔠-typography---all-weights--light: 300;
+  --_🔠-typography---all-weights--normal: 400;
+  --_🔠-typography---all-weights--medium: 500;
+  --_🔠-typography---all-weights--semi-bold: 600;
+  --_🔠-typography---all-weights--bold: 700;
+  --_🔠-typography---all-weights--extra-bold: 800;
+  --_🔠-typography---all-weights--black: 900;
+}
+
+body {
+  font-family: $font-family-body-2;
+  font-size: $size-body-2;
+  line-height: $line-height-body-2;
+  font-weight: $font-weight-body-2;
+  letter-spacing: $letter-spacing-body-2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+blockquote {
+  font-family: $font-heading-serif;
+  font-size: $size-h5;
+  line-height: $line-height-h5;
+  font-weight: $font-weight-h6;
+  letter-spacing: $letter-spacing-h6;
+  background-image: url("../images/quotes.svg");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  border-left: 0 solid $color-black;
+  margin-bottom: 10px;
+  padding: 10px 40px 10px 0;
+}
